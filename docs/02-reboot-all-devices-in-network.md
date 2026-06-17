@@ -223,11 +223,33 @@ The script will:
 #### - Reboot each device one by one. For real world scenario, you may need to increase the delay time to more than 10 seconds.
 #### - Wait between each reboot command before moving to the next device.
 
+### Confirm the Reboot
+When prompted, the script will ask:
+Type YES to reboot ALL devices listed above:
+Type:
+# YES
+*The script will then begin sending reboot commands to each device in the selected network.*
+
 
 ![Windows Power Shell](images/reboot-all-devices-command.png)
 
 ![Windows Power Shell](images/starting-device-reboot-process.png)
 
+
+### 6. Verify in the Meraki Dashboard
+
+After the script runs, go back to the Meraki Dashboard and open the target network.
+
+You can verify the reboot activity by checking:
+
+The device status
+The device event log
+The network event log
+Device connectivity after reboot
+
+![Windows Power Shell](images/confirm-reboot-eventlog-AP.png)
+
+### End of Lab 02
 
 
 
