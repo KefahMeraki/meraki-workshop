@@ -66,8 +66,144 @@ Copy the script below into the file.
 
 Update this line with the name of your demo network:
 
-```
+```script
 NETWORK_NAME = "ENTER NETWORK NAME HERE"
+```
+
+### 4. Python Script
+
+```script
+import os
+import time
+import meraki
+
+# -----------------------------
+# Demo Settings
+# -----------------------------
+NETWORK_NAME = "ENTER NETWORK NAME HERE"
+DELAY_SECONDS = 60
+
+# -----------------------------
+# API Key
+# -----------------------------
+API_KEY = os.getenv("MERAKI_DASHBOARD_API_KEY")
+
+if not API_KEY:
+    raise Exception("Missing MERAKI_DASHBOARD_API_KEY environment variable")
+
+# -----------------------------
+# Connect to Meraki Dashboard API
+# -----------------------------
+dashboard = meraki.DashboardAPI(API_KEY, suppress_logging=True)
+
+print("\nMeraki Auto-Reboot All Devices in Network")
+print("-----------------------------------------")
+print(f"Target Network Name: {NETWORK_NAME}")
+
+# -----------------------------
+# Get organizations
+# -----------------------------
+organizations = dashboard.organizations.getOrganizations()
+
+if not organizations:
+    raise Exception("No organizations found for this API key")
+
+print("\nOrganizations found:")
+for org in organizations:
+    print(f"- {org['name']}")
+
+# -----------------------------
+# Find the network by name
+# -----------------------------
+target_network = None
+target_org = None
+
+for org in organizations:
+    org_id = org["id"]
+    networks = dashboard.organizations.getOrganizationNetworks(org_id)
+
+    for network in networks:
+        if network["name"].lower() == NETWORK_NAME.lower():
+            target_network = network
+            target_org = org
+            break
+
+    if target_network:
+        break
+
+if not target_network:
+    raise Exception(f"Network named '{NETWORK_NAME}' was not found")
+
+network_id = target_network["id"]
+
+print(f"\nFound network: {target_network['name']}")
+print(f"Organization: {target_org['name']}")
+print(f"Network ID: {network_id}")
+
+# -----------------------------
+# Get all devices in the network
+# -----------------------------
+devices = dashboard.networks.getNetworkDevices(network_id)
+
+if not devices:
+    raise Exception("No devices found in this network")
+
+print("\nDevices found in this network:")
+for device in devices:
+    name = device.get("name") or "No name"
+    model = device.get("model") or "No model"
+    serial = device.get("serial") or "No serial"
+    print(f"- {name} | {model} | {serial}")
+
+# -----------------------------
+# Keep only devices that have serial numbers
+# -----------------------------
+devices_to_reboot = [
+    device for device in devices
+    if device.get("serial")
+]
+
+if not devices_to_reboot:
+    raise Exception("No devices with serial numbers were found in this network")
+
+print(f"\nTotal devices to reboot: {len(devices_to_reboot)}")
+
+# -----------------------------
+# Safety confirmation
+# -----------------------------
+confirm = input("\nType YES to reboot ALL devices listed above: ")
+
+if confirm != "YES":
+    print("Operation cancelled.\n")
+    exit()
+
+# -----------------------------
+# Reboot devices one by one
+# -----------------------------
+print("\nStarting device reboot process...\n")
+
+for index, device in enumerate(devices_to_reboot, start=1):
+    name = device.get("name") or "No name"
+    model = device.get("model") or "No model"
+    serial = device.get("serial")
+
+    try:
+        print(f"[{index}/{len(devices_to_reboot)}] Rebooting {name} | {model} | {serial}")
+
+        response = dashboard.devices.rebootDevice(serial)
+
+        print(f"Success: reboot command sent to {name}")
+        print(response)
+        print(f"Waiting {DELAY_SECONDS} seconds before next device...\n")
+
+        time.sleep(DELAY_SECONDS)
+
+    except Exception as e:
+        print(f"Error rebooting {name} | {serial}")
+        print(e)
+        print("Continuing to next device...\n")
+
+print("Done. All reboot commands have been processed.\n")
 ```
 
 
