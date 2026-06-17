@@ -224,6 +224,11 @@ The script will:
 #### - Wait between each reboot command before moving to the next device.
 
 
+![Windows Power Shell](images/reboot-all-devices-command.png)
+
+![Windows Power Shell](images/starting-device-reboot-process.png)
+
+
 
 
   
