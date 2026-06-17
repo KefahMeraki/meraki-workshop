@@ -205,6 +205,23 @@ for index, device in enumerate(devices_to_reboot, start=1):
 
 print("Done. All reboot commands have been processed.\n")
 ```
+### 5. Run the Script
+
+After saving the file, run the script from PowerShell:
+
+```powershell
+python reboot_all_devices_in_network.py
+```
+
+The script will:
+
+#### - Connect to the Meraki Dashboard API.
+#### - Search for the target network by name.
+#### - Pull all devices from that network.
+#### - Display the device name, model, and serial number.
+#### - Ask for confirmation before taking action.
+#### - Reboot each device one by one. For real world scenario, you may need to increase the delay time to more than 10 seconds.
+#### - Wait between each reboot command before moving to the next device.
 
 
 
