@@ -9,7 +9,7 @@ Use command:
  pip install meraki
 ```
 
- ![API and Webhooks Menu](images/install-python-library.png)
+ ![Windows Power Shell](images/install-python-library.png)
 
  
 
