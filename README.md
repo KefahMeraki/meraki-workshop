@@ -1,9 +1,16 @@
-Welcome to the Cisco Meraki Workshop repo. Explore automation scripts, lab exercises, and real-world demos to get hands-on with Meraki solutions.
-## Cisco Meraki Workshop
+# Cisco Meraki Workshop
 
-This repository contains all materials used during the workshop, including:
-- Automation scripts
-- Lab guides
-- Configuration examples
+Welcome to the Cisco Meraki Workshop repo. This workshop includes hands-on automation examples using the Meraki Dashboard API.
 
-Feel free to download, explore, and modify the content for your own learning.
+## Workshop Sections
+
+1. [Reboot One Single Device](docs/01-reboot-single-device.md)
+2. [Reboot Multiple Devices in One Network](docs/02-reboot-multiple-devices.md)
+3. [Workflow Automation](docs/03-workflow-automation.md)
+
+## Requirements
+
+- Python installed
+- Meraki Python library
+- Meraki Dashboard API key
+- Access to the Meraki Dashboard organization
