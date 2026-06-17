@@ -1,4 +1,4 @@
-Lab 01: Reboot a Single Meraki Device Using Python
+# Lab 01: Reboot a Single Meraki Device
 
 In this lab, you will use the Cisco Meraki Dashboard API and a Python script to reboot one specific Meraki device by serial number.
 
@@ -6,8 +6,8 @@ This exercise will walk you through installing the required Python library, prep
 
 Note: This lab is intended for authorized Meraki Dashboard users only. Make sure you have permission to reboot the selected device before running the script.
 
-1)	Install Python library
-Enter MS power shell 
+## 1. Install Python Library
+### Step 1.1 Open PowerShell
 Use command:
 ```powershell
  pip install meraki
