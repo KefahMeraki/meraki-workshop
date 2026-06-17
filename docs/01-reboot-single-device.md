@@ -4,7 +4,7 @@ In this lab, you will use the Cisco Meraki Dashboard API and a Python script to 
 
 This exercise will walk you through installing the required Python library, preparing your Meraki Dashboard API key, setting the API key as an environment variable, updating the script with the target device serial number, and running the reboot command.
 
-Note: This lab is intended for authorized Meraki Dashboard users only. Make sure you have permission to reboot the selected device before running the script.
+## Note: This lab is intended for authorized Meraki Dashboard users only. Make sure you have permission to reboot the selected device before running the script.
 
 ## 1. Install Python Library
 ### Step 1.1 Open PowerShell
@@ -16,13 +16,18 @@ Use command:
  ![Windows Power Shell](images/install-python-library.png)
 
  
+## 2. Generate or Prepare a Meraki Dashboard API Key
 
-2)	Generate/Prepare an API Key:
-Create an API Key if one isn't provided. API keys are per user and Max of 2 Keys can be generated.
-	 - Click on the Organization Menu
-  - Under Configuration, select API & Webhooks
-  - At the top, select the section called API keys and access
-  - Click on the blue Generate API Key button
+Before running the script, you will need a Meraki Dashboard API key. If you already have an API key, you may use it for this lab. If not, follow the steps below to generate one.
+
+### Log in to the Meraki Dashboard
+### Click the Organization menu.
+### Under Configuration, select API & Webhooks
+### Select API keys and access.
+### Click Generate API Key.
+### Copy the API key and save it in a secure location.
+
+## Important: The API key will only be shown once. If you lose it, you will need to revoke it and generate a new one.
 
  
 ![Windows Power Shell](images/API&Webhooks.png)
@@ -37,8 +42,9 @@ Check the box stating you've safely stored your API key and click the Done butto
 
  ![Windows Power Shell](images/store-personal-API-key.png)
 
-Create the reboot script
-Using your windows shell or Visual Studio
+## 3. Create the Reboot Script
+
+Using Windows PowerShell, Notepad, or Visual Studio Code, create a new Python file named `reboot_single_device.py`.
 ```powershell
 notepad reboot_single_device.py
 ```
