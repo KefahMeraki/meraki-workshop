@@ -20,12 +20,12 @@ Use command:
 
 Before running the script, you will need a Meraki Dashboard API key. If you already have an API key, you may use it for this lab. If not, follow the steps below to generate one.
 
-### Log in to the Meraki Dashboard
-### Click the Organization menu.
-### Under Configuration, select API & Webhooks
-### Select API keys and access.
-### Click Generate API Key.
-### Copy the API key and save it in a secure location.
+### - Log in to the Meraki Dashboard
+### - Click the Organization menu.
+### - Under Configuration, select API & Webhooks
+### - Select API keys and access.
+### - Click Generate API Key.
+### - Copy the API key and save it in a secure location.
 
 ## Important: The API key will only be shown once. If you lose it, you will need to revoke it and generate a new one.
 
@@ -57,9 +57,8 @@ Note: For this Lab, you will need to prepare the generated key that was generate
 ![Windows Power Shell](images/serial-number-location.png)
  
 
-Here is the script in blue:
-enter the serial number for the desired device to be rebooted inside this line 
-serial = “enter serial here”
+Copy the script below into the file. Then replace `ENTER SERIAL NUMBER HERE` with the serial number of the Meraki device you want to reboot.
+
 
 ```python
 import os
