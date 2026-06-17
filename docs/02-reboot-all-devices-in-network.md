@@ -227,7 +227,7 @@ The script will:
 When prompted, the script will ask:
 Type YES to reboot ALL devices listed above:
 Type:
-# YES
+#### YES
 *The script will then begin sending reboot commands to each device in the selected network.*
 
 
@@ -252,7 +252,7 @@ Device connectivity after reboot
 
 ![Windows Power Shell](images/network-wide-event-log-1.png)
 
-![Windows Power Shell](images/confirm-reboot-eventlog-AP.png)
+![Windows Power Shell](images/network-wide-event-log-2.png)
 
 ### End of Lab 02
 
