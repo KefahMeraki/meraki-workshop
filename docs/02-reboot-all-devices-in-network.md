@@ -52,7 +52,24 @@ $env:MERAKI_DASHBOARD_API_KEY="PASTE_YOUR_API_KEY_HERE"
 ```
 
 ### [!IMPORTANT]
-*Do not upload API keys to GitHub. API keys should be stored securely and used only as environment variables during the lab."
+*Do not upload API keys to GitHub. API keys should be stored securely and used only as environment variables during the lab.*
+
+### 3. Create the Reboot Script
+
+Using Windows PowerShell, Notepad, or Visual Studio Code, create a new Python file named:
+
+```python
+notepad reboot_all_devices_in_network.py
+```
+
+Copy the script below into the file.
+
+Update this line with the name of your demo network:
+
+```
+NETWORK_NAME = "ENTER NETWORK NAME HERE"
+```
+
 
 
 
