@@ -254,7 +254,7 @@ Device connectivity after reboot
 
 ![Windows Power Shell](images/network-wide-event-log-2.png)
 
-### End of Lab 02
+## End of Lab 02
 
 
 
