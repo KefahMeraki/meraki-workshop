@@ -7,6 +7,7 @@ Enter MS power shell
 Use command:
 ```powershell
  pip install meraki
+```
  
 
 3)	Generate/Prepare an API Key:
@@ -66,11 +67,13 @@ else:
 If using Power shell, set the environment variable for the first time only by typing the following command:
 ```powershell
 $env:MERAKI_DASHBOARD_API_KEY”12345 your generated Key Here 12345”
+```
  
 
 Run the script using Python:
 ```powershell
 Python reboot_single_device.py
+```
  
 You can observe the Device before you execute to see if it is online first.
 Then, hit enter and monitor the device rebooting by going to the device and Event Log
