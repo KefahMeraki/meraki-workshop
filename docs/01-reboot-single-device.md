@@ -4,7 +4,7 @@ In this lab, you will use the Cisco Meraki Dashboard API and a Python script to 
 
 This exercise will walk you through installing the required Python library, preparing your Meraki Dashboard API key, setting the API key as an environment variable, updating the script with the target device serial number, and running the reboot command.
 
-** Note:** This lab is intended for authorized Meraki Dashboard users only. Make sure you have permission to reboot the selected device before running the script.
+*Note: This lab is intended for authorized Meraki Dashboard users only. Make sure you have permission to reboot the selected device before running the script.*
 
 ## 1. Install Python Library
 ### Step 1.1 Open PowerShell
