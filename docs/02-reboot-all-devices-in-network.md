@@ -25,7 +25,10 @@ This means the Meraki library is already available and you can continue with the
 
 [!NOTE]
 *On some Windows computers, the command pip install meraki may not work because pip is not recognized directly. Using python -m pip install meraki is more reliable because it runs pip through your installed Python version.*
+
 ![Windows Power Shell](images/already-staisfied.png)
+
+
 
 
 
@@ -35,9 +38,6 @@ This means the Meraki library is already available and you can continue with the
 
 delete below this line
  ![Windows Power Shell](images/install-python-library.png)
-  ![Windows Power Shell](images/install-python-library.png)
-   ![Windows Power Shell](images/install-python-library.png)
-    ![Windows Power Shell](images/install-python-library.png)
 
   
 
