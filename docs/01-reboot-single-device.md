@@ -8,6 +8,9 @@ Use command:
 ```powershell
  pip install meraki
 ```
+
+ ![API and Webhooks Menu](images/install-python-library.png)
+
  
 
 3)	Generate/Prepare an API Key:
