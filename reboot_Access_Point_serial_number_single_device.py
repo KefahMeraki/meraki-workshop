@@ -1,7 +1,7 @@
 import os
 import meraki
 
-API_KEY = os.getenv("ENTERV MERAKI API KEY HERE")
+API_KEY = os.getenv("ENTER MERAKI API KEY HERE")
 
 if not API_KEY:
     raise Exception("Missing MERAKI_DASHBOARD_API_KEY environment variable")
