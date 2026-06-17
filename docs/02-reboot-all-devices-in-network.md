@@ -243,6 +243,7 @@ After the script runs, go back to the Meraki Dashboard and open the target netwo
 You can verify the reboot activity by checking:
 
 The device status
+
 The device event log 
 The network event log
 Device connectivity after reboot
