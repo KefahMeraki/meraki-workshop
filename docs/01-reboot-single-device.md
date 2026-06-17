@@ -23,18 +23,24 @@ Create an API Key if one isn't provided. API keys are per user and Max of 2 Keys
  
 ![Windows Power Shell](images/API&Webhooks.png)
 
-!![Windows Power Shell](images/generate-key.png)
+
+![Windows Power Shell](images/generate-key.png)
 
  
 
 Copy the API key and save it to a text file in a safe place. You will need this Key.
 Check the box stating you've safely stored your API key and click the Done button – If you do not save the key, you will need to revoke the key and generate new one if not saved since it will not be visible again.
 
- 
+ ![Windows Power Shell](images/store-personal-API-key.png)
 
 Create the reboot script
 Using your windows shell or Visual Studio
-PS C:\Users\kefadda> notepad reboot_single_device.py
+```powershell
+notepad reboot_single_device.py
+```
+
+![Windows Power Shell](images/notepad-command-reboot-single-device.png)
+
  
 Note: For this Lab, you will need to prepare the generated key that was generated as well as the Serial Number – have them ready on a text file.
  
