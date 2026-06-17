@@ -13,6 +13,8 @@ If you already completed Lab 01, the Meraki Python library should already be ins
 
 To confirm or install it again, open Windows PowerShell and run:
 
-```python
+```powershell
 pip install meraki
 ```
+
+
