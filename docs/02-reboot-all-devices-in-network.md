@@ -81,7 +81,7 @@ import meraki
 # Demo Settings
 # -----------------------------
 NETWORK_NAME = "ENTER NETWORK NAME HERE"
-DELAY_SECONDS = 60
+DELAY_SECONDS = 10
 
 # -----------------------------
 # API Key
