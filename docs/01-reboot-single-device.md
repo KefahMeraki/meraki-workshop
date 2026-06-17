@@ -13,6 +13,9 @@ Use command:
  python -m pip install meraki
 ```
 
+[!NOTE]
+*If pip install meraki does not work, use python -m pip install meraki. This runs pip through the Python installation and is more reliable on Windows.*
+
  ![Windows Power Shell](images/install-python-library.png)
 
  
