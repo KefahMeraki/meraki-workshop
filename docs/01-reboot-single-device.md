@@ -1,6 +1,6 @@
 Steps for Rebooting Single Device using a Python script:
 
-Logon to KefahMeraki/meraki-workshop: Welcome to the Cisco Meraki Workshop repo. Explore automation scripts, lab exercises, and real-world demos to get hands-on with Meraki solutions.
+Logon to [KefahMeraki/meraki-workshop: Welcome to the Cisco Meraki Workshop repo. Explore automation scripts, lab exercises, and real-world demos to get hands-on with Meraki solutions.](https://github.com/KefahMeraki/meraki-workshop/tree/main)
 
 1)	Install Python library
 Enter MS power shell 
