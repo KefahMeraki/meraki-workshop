@@ -43,6 +43,8 @@ notepad reboot_single_device.py
 
  
 Note: For this Lab, you will need to prepare the generated key that was generated as well as the Serial Number – have them ready on a text file.
+
+![Windows Power Shell](images/serial-number-location.png)
  
 
 Here is the script in blue:
@@ -80,6 +82,9 @@ If using Power shell, set the environment variable for the first time only by ty
 ```powershell
 $env:MERAKI_DASHBOARD_API_KEY”12345 your generated Key Here 12345”
 ```
+
+![Windows Power Shell](images/env-meraki-dashboard-command.png)
+
  
 
 Run the script using Python:
