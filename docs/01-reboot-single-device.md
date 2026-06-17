@@ -97,6 +97,9 @@ Python reboot_single_device.py
 You can observe the Device before you execute to see if it is online first.
 Then, hit enter and monitor the device rebooting by going to the device and Event Log
  
+![Windows Power Shell](images/offline.png)
+
+
 ![Windows Power Shell](images/offline-and-eventlog.png)
  
  
