@@ -23,7 +23,7 @@ Create an API Key if one isn't provided. API keys are per user and Max of 2 Keys
  
 ![Windows Power Shell](images/API&Webhooks.png)
 
-!(images/generate-key.png)
+!![Windows Power Shell](images/generate-key.png)
 
  
 
