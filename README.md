@@ -5,7 +5,7 @@ Welcome to the Cisco Meraki Workshop repo. This workshop includes hands-on autom
 ## Workshop Sections
 
 1. [Reboot One Single Device](docs/01-reboot-single-device.md)
-2. [Reboot Multiple Devices in One Network](docs/02-reboot-multiple-devices.md)
+2. [Reboot Multiple Devices in One Network](docs/02-reboot-all-devices-in-network.md)
 3. [Workflow Automation](docs/03-workflow-automation.md)
 
 ## Requirements
@@ -14,3 +14,4 @@ Welcome to the Cisco Meraki Workshop repo. This workshop includes hands-on autom
 - Meraki Python library
 - Meraki Dashboard API key
 - Access to the Meraki Dashboard organization
+
