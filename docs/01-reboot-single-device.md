@@ -13,14 +13,17 @@ Use command:
 
  
 
-3)	Generate/Prepare an API Key:
+2)	Generate/Prepare an API Key:
 Create an API Key if one isn't provided. API keys are per user and Max of 2 Keys can be generated.
-1.	Click on the Organization Menu
-2.	Under Configuration, select API & Webhooks
-3.	At the top, select the section called API keys and access
-4.	Click on the blue Generate API Key button
+	 - Click on the Organization Menu
+  - Under Configuration, select API & Webhooks
+  - At the top, select the section called API keys and access
+  - Click on the blue Generate API Key button
 
  
+![Windows Power Shell](images/API&Webhooks.png.png)
+
+!(images/generate-key.png)
 
  
 
