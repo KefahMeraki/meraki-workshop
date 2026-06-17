@@ -27,7 +27,7 @@ Before running the script, you will need a Meraki Dashboard API key. If you alre
 ### - Click Generate API Key.
 ### - Copy the API key and save it in a secure location.
 
-## Important: The API key will only be shown once. If you lose it, you will need to revoke it and generate a new one.
+*Important: The API key will only be shown once. If you lose it, you will need to revoke it and generate a new one.*
 
  
 ![Windows Power Shell](images/API&Webhooks.png)
