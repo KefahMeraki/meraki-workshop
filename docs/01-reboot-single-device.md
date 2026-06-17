@@ -87,9 +87,9 @@ else:
     print("Cancelled.")
 ```
 
-If using Power shell, set the environment variable for the first time only by typing the following command:
+If using Power shell, set the environment variable *This command only needs to be run once per PowerShell session.*
 ```powershell
-$env:MERAKI_DASHBOARD_API_KEY”12345 your generated Key Here 12345”
+$env:MERAKI_DASHBOARD_API_KEY="your_api_key_here"
 ```
 
 ![Windows Power Shell](images/env-meraki-dashboard-command.png)
