@@ -250,6 +250,7 @@ The network event log
 
 Device connectivity after reboot 
 
+![Windows Power Shell](images/network-wide-event-log-1.png)
 
 ![Windows Power Shell](images/confirm-reboot-eventlog-AP.png)
 
