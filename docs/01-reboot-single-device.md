@@ -10,7 +10,7 @@ This exercise will walk you through installing the required Python library, prep
 ### Step 1.1 Open PowerShell
 Use command:
 ```powershell
- pip install meraki
+ python -m pip install meraki
 ```
 
  ![Windows Power Shell](images/install-python-library.png)
