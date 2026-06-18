@@ -1,5 +1,3 @@
-
-# *UNDER CONSTRUCTION - WORKING ON IT NOW*
 # Lab 03: Meraki Workflow Automation
 
 In this lab, you will explore **Cisco Workflows** inside the Meraki Dashboard and use a pre-built workflow from the **Cisco Workflow Exchange**.
