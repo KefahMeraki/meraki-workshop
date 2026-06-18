@@ -26,6 +26,7 @@ By the end of this lab, you will be able to:
 - [5. Install a pre-built Meraki workflow](#5-install-a-pre-built-meraki-workflow)
 - [6. Run the workflow to create a wireless SSID](#6-run-the-workflow-to-create-a-wireless-ssid)
 - [7. Verify the SSID in the Meraki Dashboard](#7-verify-the-ssid-in-the-meraki-dashboard)
+- [8. Lab Summary](#8-lab-summary)
 
  ## 1. Generate or Prepare a Meraki Dashboard API Key
  Before connecting Cisco Workflows to Meraki, you will need a Meraki Dashboard API key.
