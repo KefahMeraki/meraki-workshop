@@ -241,28 +241,37 @@ Navigate to: **Wireless > Configure > SSIDs**
 
 ![Windows Power Shell](images/lab03-verify1.png)
 
+Confirm that the new SSID appears in the list and review the configured settings.
+
 You may also validate:
 
 SSID name
-
 Authentication method
-
 PSK configuration
-
 SSID enabled or disabled status
 
 
+## Lab Summary
+
+In this lab, you used Cisco Workflows inside the Meraki Dashboard to automate the creation of a wireless SSID.
+
+You completed the following tasks:
+
+Prepared a Meraki Dashboard API key.
+Accessed Cisco Workflows from the Meraki Dashboard.
+Connected Cisco Workflows to Meraki using Targets.
+Explored the Cisco Workflow Exchange.
+Installed a Cisco-managed workflow.
+Ran the workflow to create a wireless SSID.
+Verified the SSID in the Meraki Dashboard.
+
+This lab demonstrates how Cisco Workflows can help automate common network operations without requiring custom Python scripts.
+
+## End of Lab 03
 
 
 
-## 8. Verify the SSID in the Meraki Dashboard
 
-After the workflow completes, return to the Meraki Dashboard and verify that the SSID was created.
-
-Navigate to:
-
-```text
-Wireless > Configure > SSIDs
 
 
 
