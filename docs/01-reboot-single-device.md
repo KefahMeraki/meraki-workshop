@@ -30,7 +30,7 @@ Before running the script, you will need a Meraki Dashboard API key. If you alre
 ### - Click Generate API Key.
 ### - Copy the API key and save it in a secure location.
 
-> > [!Important]
+> [!Important]
 > The API key will only be shown once. If you lose it, you will need to revoke it and generate a new one.*
 
  
@@ -41,7 +41,8 @@ Before running the script, you will need a Meraki Dashboard API key. If you alre
 
  
 
-> **Important:** Copy the API key and save it to a text file in a safe place. You will need this Key.
+> [!Important]
+> Copy the API key and save it to a text file in a safe place. You will need this Key.
 > Check the box stating you've safely stored your API key and click the Done button – If you do not save the key, you will need to revoke the key and generate new one if not saved since it will not be visible again.
 
  ![Windows Power Shell](images/store-personal-API-key.png)
