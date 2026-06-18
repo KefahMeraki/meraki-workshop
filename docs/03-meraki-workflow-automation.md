@@ -2,9 +2,9 @@
 # *UNDER CONSTRUCTION - WORKING ON IT NOW*
 # Lab 03: Meraki Workflow Automation
 
-In this lab, you will explore Cisco Workflows inside the Meraki Dashboard and use a pre-built workflow from the Cisco Workflow Exchange.
+In this lab, you will explore **Cisco Workflows** inside the Meraki Dashboard and use a pre-built workflow from the **Cisco Workflow Exchange**.
 
-For this exercise, we will use the Create Wireless SSID with PSK Authentication workflow. This workflow demonstrates how automation can simplify common Meraki Dashboard tasks, such as creating a wireless SSID with WPA2-PSK authentication.
+For this exercise, we will use the **Create Wireless SSID with PSK Authentication workflow**. This workflow demonstrates how automation can simplify common Meraki Dashboard tasks, such as creating a wireless SSID with WPA2-PSK authentication.
 
 
 
@@ -50,8 +50,8 @@ If you do not have an API key, generate one from the Meraki Dashboard.
   
   
 
-[!IMPORTANT]
-*The API key is shown only once. If you lose it, you will need to revoke it and generate a new one.*
+> [!IMPORTANT]
+> *The API key is shown only once. If you lose it, you will need to revoke it and generate a new one.*
 
 *Do not upload API keys to GitHub or share them in screenshots.*
 
