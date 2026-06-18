@@ -108,7 +108,7 @@ DEMO- Meraki Dashboard Target
 ### Create a new account key using the following information:
 
 Display Name:
-```text 
+```
 DEMO-Meraki API
 ```
 
