@@ -224,8 +224,8 @@ After entering the required values, start the workflow.
 
 The workflow will use Meraki Dashboard automation to create the wireless SSID based on the inputs provided.
 
-[!IMPORTANT]
-Use a demo SSID name and test pre-shared key for this lab. Do not use production wireless credentials.
+> [!IMPORTANT]
+> *Use a demo SSID name and test pre-shared key for this lab. Do not use production wireless credentials.*
 
 ## 8. Verify the SSID in the Meraki Dashboard
 
