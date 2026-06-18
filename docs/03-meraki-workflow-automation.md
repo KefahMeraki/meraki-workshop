@@ -15,21 +15,14 @@ For this exercise, we will use the Create Wireless SSID with PSK Authentication 
 
 ## Learning Objectives
 
-By the end of this lab, you will be able to:
-
-Generate or prepare a Meraki Dashboard API key
-Access Cisco Workflows from the Meraki Dashboard
-Connect Cisco Workflows to Meraki using Targets
-Explore the Cisco Workflow Exchange
-Install a pre-built Meraki workflow
-Review the Create Wireless SSID with PSK Authentication workflow
-Run the workflow to create a wireless SSID
-Verify the SSID in the Meraki Dashboard
-1. Generate or Prepare a Meraki Dashboard API Key
 
 
 
-## Learning Objectives
+
+
+
+
+
 
 By the end of this lab, you will be able to:
 
@@ -40,3 +33,5 @@ By the end of this lab, you will be able to:
 - [Install a pre-built Meraki workflow](#5-install-a-pre-built-meraki-workflow)
 - [Run the workflow to create a wireless SSID](#6-run-the-workflow-to-create-a-wireless-ssid)
 - [Verify the SSID in the Meraki Dashboard](#7-verify-the-ssid-in-the-meraki-dashboard)
+
+ ## 1. Generate or Prepare a Meraki Dashboard API Key
