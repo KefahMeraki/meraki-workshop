@@ -105,6 +105,10 @@ DEMO- Meraki Dashboard Target
 ![Windows Power Shell](images/lab03-new-target.png)
 
 
+![Windows Power Shell](images/lab03-target-display-name.png)
+
+
+
 ### Create a new account key using the following information:
 
 Display Name:
