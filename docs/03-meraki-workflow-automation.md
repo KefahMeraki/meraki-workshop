@@ -193,9 +193,11 @@ During the workflow review, pay attention to:
 > [!WARNING]
 > Make sure you are working in the correct demo network before running the workflow.
 
+
 ![Windows Power Shell](images/lab03-install-workflow.png)
 
 
+![Windows Power Shell](images/lab03-pay-attention-requirement.png)
 
 
 
