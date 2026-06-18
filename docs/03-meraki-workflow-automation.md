@@ -232,7 +232,7 @@ The workflow will use Meraki Dashboard automation to create the wireless SSID ba
 
 
 
-## 8. Verify the SSID in the Meraki Dashboard
+## 7. Verify the SSID in the Meraki Dashboard
 
 After the workflow completes, return to the Meraki Dashboard and verify that the SSID was created.
 
