@@ -147,7 +147,26 @@ A valid Target confirms that Cisco Workflows can successfully authenticate and c
 > Congratulations! You have successfully connected your first Meraki Target to Cisco Workflows. You are now ready to begin automating Meraki solutions. 
 
 
+## 4. Explore the Cisco Workflow Exchange
 
+After the Meraki Target is configured, open the Cisco Workflow Exchange.
+
+The Workflow Exchange provides pre-built automation workflows that can be installed and used to automate common tasks across Cisco platforms, including Meraki.
+
+For this lab, locate the workflow named:
+
+**Create Wireless SSID with PSK Authentication**
+
+This is a Cisco-managed workflow designed to automate the creation of a secure wireless SSID using **WPA2-PSK authentication**.
+
+![Windows Power Shell](images/lab03-exchnage-location.png)
+
+![Windows Power Shell](images/lab03-explore-exchange.png)
+
+
+## 5. Install a Pre-Built Meraki Workflow
+
+After locating the Create Wireless SSID with PSK Authentication workflow, click:
 
 
 
