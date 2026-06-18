@@ -56,10 +56,6 @@ If you do not have an API key, generate one from the Meraki Dashboard.
 *Do not upload API keys to GitHub or share them in screenshots.*
 
 ## 2. Access Cisco Workflows from the Meraki Dashboard
-Open a browser and log in to the Meraki Dashboard:
-
-[https://dashboard.meraki.com](https://dashboard.meraki.com)
-
 Open a browser and log in to the [Meraki Dashboard](https://dashboard.meraki.com).
 
 
