@@ -198,8 +198,9 @@ During the workflow review, pay attention to:
 
 
 
-
 ![Windows Power Shell](images/lab03-enter-psk-password.png)
+
+Once clicked Next, the workflow will be installed. Choose **Maybe later** since you will run it from different location.
 
 ![Windows Power Shell](images/lab03-installation-maybe-later.png)
 
