@@ -228,7 +228,7 @@ The workflow will use Meraki Dashboard automation to create the wireless SSID ba
 > *Use a demo SSID name and test pre-shared key for this lab. Do not use production wireless credentials.*
 
 
-![Windows Power Shell](images/lab03-workflow-succes.png)
+![Windows Power Shell](images/lab03-workflow-success.png)
 
 
 
