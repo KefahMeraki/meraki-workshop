@@ -43,7 +43,9 @@ If you do not have an API key, generate one from the Meraki Dashboard.
 - Copy the API key and save it in a secure location.
 
   ![Windows Power Shell](images/API&Webhooks.png)
+  
   ![Windows Power Shell](images/generate-key.png)
+
   ![Windows Power Shell](images/store-personal-API-key.png)
   
   
