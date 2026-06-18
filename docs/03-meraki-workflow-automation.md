@@ -202,9 +202,6 @@ During the workflow review, pay attention to:
 ![Windows Power Shell](images/lab03-enter-psk-password.png)
 
 
-![Windows Power Shell](images/lab03-installation-succeeded.png)
-1
-
 
 
 
