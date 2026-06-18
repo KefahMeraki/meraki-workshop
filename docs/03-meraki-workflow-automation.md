@@ -258,19 +258,13 @@ In this lab, you used **Cisco Workflows** inside the Meraki Dashboard to automat
 
 You completed the following tasks:
 
-Prepared a Meraki Dashboard API key
-
-Accessed Cisco Workflows from the Meraki Dashboard
-
-Connected Cisco Workflows to Meraki using Targets
-
-Explored the Cisco Workflow Exchange
-
-Installed a Cisco-managed workflow
-
-Ran the workflow to create a wireless SSID
-
-Verified the SSID in the Meraki Dashboard
+- Prepared a Meraki Dashboard API key.
+- Accessed Cisco Workflows from the Meraki Dashboard.
+- Connected Cisco Workflows to Meraki using Targets.
+- Explored the Cisco Workflow Exchange.
+- Installed a Cisco-managed workflow.
+- Ran the workflow to create a wireless SSID.
+- Verified the SSID in the Meraki Dashboard.
 
 
 >[!NOTE]
