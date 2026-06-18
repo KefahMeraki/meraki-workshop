@@ -17,13 +17,6 @@ For this exercise, we will use the Create Wireless SSID with PSK Authentication 
 
 
 
-
-
-
-
-
-
-
 By the end of this lab, you will be able to:
 
 - [Generate or prepare a Meraki Dashboard API key](#1-generate-or-prepare-a-meraki-dashboard-api-key)
@@ -35,3 +28,70 @@ By the end of this lab, you will be able to:
 - [Verify the SSID in the Meraki Dashboard](#7-verify-the-ssid-in-the-meraki-dashboard)
 
  ## 1. Generate or Prepare a Meraki Dashboard API Key
+ Before connecting Cisco Workflows to Meraki, you will need a Meraki Dashboard API key.
+
+If you already generated an API key prevoiusly, you may use the same API key for this lab.
+
+If you do not have an API key, generate one from the Meraki Dashboard.
+
+#### Steps to Generate an API Key
+- Log in to the Meraki Dashboard.
+- Click the Organization menu.
+- Under Configuration, select API & Webhooks.
+- Select API keys and access.
+- Click Generate API Key.
+- Copy the API key and save it in a secure location.
+
+  ![Windows Power Shell](images/api&webhooks.png)
+  
+
+[!IMPORTANT]
+*The API key is shown only once. If you lose it, you will need to revoke it and generate a new one.*
+
+*Do not upload API keys to GitHub or share them in screenshots.*
+
+## 2. Access Cisco Workflows from the Meraki Dashboard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## delete all below - this is only template to use for lab 03
+
+```powershell
+python -m pip install meraki
+```
+
+![Windows Power Shell](images/already-satisfied.png)
+
+
+
+
+
+
+
