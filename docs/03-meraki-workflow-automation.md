@@ -57,6 +57,8 @@ If you do not have an API key, generate one from the Meraki Dashboard.
 
 ## 2. Access Cisco Workflows from the Meraki Dashboard
 Open a browser and log in to the [Meraki Dashboard](https://dashboard.meraki.com).
+> [!TIP]
+> *To keep this lab guide open, right-click the link and select **Open link in new tab**, or hold **Ctrl** while clicking the link.*
 
 
 After logging in, select the correct organization and network for your lab environment.
