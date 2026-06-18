@@ -176,7 +176,7 @@ This will add the workflow to your Cisco Workflows environment so it can be revi
 > [!NOTE]
 > *Installing the workflow does not immediately make changes to your Meraki network. The workflow must be run before it performs any action.*
 
-## 6. Review the Create Wireless SSID with PSK Authentication Workflow
+     ### Review the Create Wireless SSID with PSK Authentication Workflow
 
 Before running the workflow, review the workflow details and understand what it is designed to do.
 
@@ -205,7 +205,7 @@ Once clicked Next, the workflow will be installed. Choose **Maybe later** since 
 ![Windows Power Shell](images/lab03-installation-maybe-later.png)
 
 
-## 7. Run the Workflow to Create a Wireless SSID
+## 6. Run the Workflow to Create a Wireless SSID
 
 Run the installed workflow from **Automation** > **Workspace** 
 
