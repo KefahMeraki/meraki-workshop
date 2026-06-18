@@ -252,7 +252,7 @@ PSK configuration
 SSID enabled or disabled status
 
 
-## Lab Summary
+## 8. Lab Summary
 
 In this lab, you used **Cisco Workflows** inside the Meraki Dashboard to automate the creation of a wireless SSID.
 
