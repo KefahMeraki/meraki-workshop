@@ -256,7 +256,7 @@ SSID enabled or disabled status
 
 In this lab, you used **Cisco Workflows** inside the Meraki Dashboard to automate the creation of a wireless SSID.
 
-You completed the following tasks:
+You completed the following tasks
 
     -Prepared a Meraki Dashboard API key
 
