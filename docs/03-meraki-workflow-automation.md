@@ -252,13 +252,17 @@ PSK configuration
 SSID enabled or disabled status
 
 
-### Optional Verification: Check the Network Event Log
 
-You can also review the network event log to check for configuration activity.
 
-Navigate to: **Network-wide > Monitor > Event log**
 
-Use the filters to narrow the results by time, device, or event type.
+## 8. Verify the SSID in the Meraki Dashboard
+
+After the workflow completes, return to the Meraki Dashboard and verify that the SSID was created.
+
+Navigate to:
+
+```text
+Wireless > Configure > SSIDs
 
 
 
