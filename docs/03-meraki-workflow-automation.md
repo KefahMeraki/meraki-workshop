@@ -211,11 +211,14 @@ Run the installed workflow from **Automation** > **Workspace**
 
 ![Windows Power Shell](images/lab03-workspace-2.png)
 
-Example inputs may include:
+Choose Target **DEMO-Meraki Dashboard Target**
+Enter Input variables:
+Organization Name: **YOUR ORGANIZATION NAME HERE**
+SSID Name: **DEMO-GUEST-01**
+Network Name: **ENTER NETWORK NAME HERE**
 
-Network Name: ENTER NETWORK NAME HERE
-SSID Name: ENTER SSID NAME HERE
-Pre-Shared Key: ENTER TEST PSK HERE
+
+![Windows Power Shell](images/lab03-run-workflow.png)
 
 After entering the required values, start the workflow.
 
