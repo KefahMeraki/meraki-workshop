@@ -102,6 +102,7 @@ DEMO- Meraki Dashboard Target
 > [!NOTE]
 > *If a **Meraki Endpoinbt** Target already exists in your lab environment, you may be able to use the existing Target instead of creating a new one.*
 
+![Windows Power Shell](images/lab03-new-target.png)
 
 
 ### Create a new account key using the following information:
@@ -145,7 +146,7 @@ python -m pip install meraki
 
 ![Windows Power Shell](images/already-satisfied.png)
 
-![Windows Power Shell](images/lab03-new-target.png)
+
 
 
 
