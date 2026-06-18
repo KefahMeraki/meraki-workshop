@@ -180,7 +180,20 @@ This will add the workflow to your Cisco Workflows environment so it can be revi
 
 Before running the workflow, review the workflow details and understand what it is designed to do.
 
+This workflow helps automate the creation of a wireless SSID in a Meraki network using pre-shared key authentication.
 
+During the workflow review, pay attention to:
+
+- The required input fields
+- The Meraki organization or network selection
+- The SSID name
+- The pre-shared key configuration
+- Any additional wireless settings included in the workflow
+
+> [!WARNING]
+> Make sure you are working in the correct demo network before running the workflow.
+
+![Windows Power Shell](images/lab03-install-workflow.png)
 
 
 
