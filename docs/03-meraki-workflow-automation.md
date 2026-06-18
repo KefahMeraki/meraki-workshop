@@ -96,9 +96,9 @@ Select the Target Type:
 Enter a name for the Target.
 
 Example:
-```
-**DEMO- Meraki Dashboard Target**
-```
+** ```
+DEMO- Meraki Dashboard Target
+```**
 > [!NOTE]
 > *If a **Meraki Endpoinbt** Target already exists in your lab environment, you may be able to use the existing Target instead of creating a new one.*
 
