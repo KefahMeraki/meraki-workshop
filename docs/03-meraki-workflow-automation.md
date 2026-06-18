@@ -108,6 +108,8 @@ python -m pip install meraki
 
 ![Windows Power Shell](images/already-satisfied.png)
 
+![Windows Power Shell](images/lab03-new-target.png)
+
 
 
 
