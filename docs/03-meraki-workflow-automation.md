@@ -112,7 +112,9 @@ Display Name:
 DEMO-Meraki API
 ```
 
-Account Key Type: ```Meraki Credentials```
+Account Key Type: ```
+Meraki Credentials
+```
 
 Meraki API Key: ```Paste your Meraki Dashboard API key```
 
