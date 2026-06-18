@@ -57,15 +57,15 @@ If you do not have an API key, generate one from the Meraki Dashboard.
 
 ## 2. Access Cisco Workflows from the Meraki Dashboard
 Open a browser and log in to the Meraki Dashboard:
-```LINK
-https://dashboard.meraki.com
-```
+
+[https://dashboard.meraki.com](https://dashboard.meraki.com)
+
 
 After logging in, select the correct organization and network for your lab environment.
 
 From the left navigation menu, go to:
 
-Automation
+#### Automation
 
 Cisco Workflows is available from the Automation section of the Meraki Dashboard.
 ![Windows Power Shell](images/lab03-automation-dashboard.png)
