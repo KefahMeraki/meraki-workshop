@@ -51,7 +51,7 @@ If it is blank, set the environment variable again:
 $env:MERAKI_DASHBOARD_API_KEY="PASTE_YOUR_API_KEY_HERE"
 ```
 
-> ### [!IMPORTANT]
+> [!IMPORTANT]
 > *Do not upload API keys to GitHub. API keys should be stored securely and used only as environment variables during the lab.*
 
 ### 3. Create the Reboot Script
