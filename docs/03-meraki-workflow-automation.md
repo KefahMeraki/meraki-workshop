@@ -207,9 +207,9 @@ Once clicked Next, the workflow will be installed. Choose **Maybe later** since 
 
 ## 7. Run the Workflow to Create a Wireless SSID
 
-Run the installed workflow and provide the required inputs.
+Run the installed workflow from **Automation** > **Workspace** 
 
-![Windows Power Shell](images/lab03-workspace-1.png)
+![Windows Power Shell](images/lab03-workspace-2.png)
 
 Example inputs may include:
 
