@@ -63,9 +63,8 @@ Open a browser and log in to the [Meraki Dashboard](https://dashboard.meraki.com
 
 After logging in, select the correct organization and network for your lab environment.
 
-From the left navigation menu, go to:
+From the left navigation menu, go to **Automation**
 
-#### Automation
 
 Cisco Workflows is available from the Automation section of the Meraki Dashboard.
 ![Windows Power Shell](images/lab03-automation-dashboard.png)
