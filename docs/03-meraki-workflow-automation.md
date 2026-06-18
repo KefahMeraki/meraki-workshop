@@ -238,7 +238,7 @@ After the workflow completes, return to the Meraki Dashboard and verify that the
 
 
 
-
+![Windows Power Shell](images/lab03-verify1.png)
 
 
 
