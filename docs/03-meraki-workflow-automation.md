@@ -161,7 +161,8 @@ This is a Cisco-managed workflow designed to automate the creation of a secure w
 
 ![Windows Power Shell](images/lab03-exchnage-location.png)
 
-![Windows Power Shell](images/lab03-explore-exchange.png)
+![Windows Power Shell](images/lab03-exchange-explore.png)
+
 
 
 ## 5. Install a Pre-Built Meraki Workflow
