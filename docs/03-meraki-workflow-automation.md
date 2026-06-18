@@ -200,12 +200,33 @@ During the workflow review, pay attention to:
 
 ![Windows Power Shell](images/lab03-enter-psk-password.png)
 
-Once clicked Next, the workflow will be installed. Choose **Maybe later** since you will run it from different location.
+Once clicked Next, the workflow will be installed. Choose **Maybe later** since you will run it from a different location.
 
 ![Windows Power Shell](images/lab03-installation-maybe-later.png)
 
 
+## 7. Run the Workflow to Create a Wireless SSID
 
+Run the installed workflow and provide the required inputs.
+
+![Windows Power Shell](images/lab03-workspace-1.png)
+
+Example inputs may include:
+
+Network Name: ENTER NETWORK NAME HERE
+SSID Name: ENTER SSID NAME HERE
+Pre-Shared Key: ENTER TEST PSK HERE
+
+After entering the required values, start the workflow.
+
+The workflow will use Meraki Dashboard automation to create the wireless SSID based on the inputs provided.
+
+[!IMPORTANT]
+Use a demo SSID name and test pre-shared key for this lab. Do not use production wireless credentials.
+
+## 8. Verify the SSID in the Meraki Dashboard
+
+After the workflow completes, return to the Meraki Dashboard and verify that the SSID was created.
 
 
 
