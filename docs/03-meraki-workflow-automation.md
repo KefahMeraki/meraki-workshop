@@ -136,6 +136,8 @@ Click **Save**
 
 After saving, confirm that the Target status is **blue** and shows as **valid**.
 
+![Windows Power Shell](images/lab03-verify-target-blue.png)
+
 
 
 
