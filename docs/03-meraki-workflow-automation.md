@@ -71,13 +71,50 @@ Cisco Workflows is available from the Automation section of the Meraki Dashboard
 
 
 ## 3. Connect Cisco Workflows to Meraki Using Targets
+Before running a Meraki workflow, Cisco Workflows needs a connection to the Meraki Dashboard API. This connection is configured using **Targets**.
+
+A **Target** is the system or resource that Cisco Workflows will communicate with when the workflow runs. Targets can be different types depending on what the workflow needs to connect to.
+
+For this lab, the workflow will connect to Meraki, so the Target Type must be:
+
+Meraki Endpoint
+
+> [!NOTE]
+> Cisco Workflows can use different Target Types depending on the automation use case. For this lab, we are using a **Meraki Endpoint** because the workflow needs to communicate with the Meraki Dashboard API.
+
+### Create a New Meraki Target
+
+In the Meraki Dashboard, navigate to: **Automation > Targets**
+
+Follow these steps:
+
+Click **Automation** from the left menu.
+Under **Workflows**, select **Targets**.
+Click + **New target**.
+Select the Target Type:
+**Meraki Endpoint**
+Enter a name for the Target.
+
+Example:
+
+**DEMO- Meraki Dashboard Target**
+
+> [!NOTE]
+> *If a **Meraki Endpoinbt** Target already exists in your lab environment, you may be able to use the existing Target instead of creating a new one.*
 
 
 
+### Create a new account key using the following information:
 
+Display Name: **DEMO-Meraki API**
+Account Key Type: **Meraki Credentials**
+Meraki API Key: *Paste your Meraki Dashboard API key*
 
+Click **Save**
 
+### Validate the Target
 
+After saving, confirm that the Target status is **blue** and shows as **valid**.
 
 
 
