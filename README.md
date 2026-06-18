@@ -10,7 +10,7 @@ Welcome to the Cisco Meraki Workshop repo. This workshop includes hands-on autom
 
 ## Requirements
 
-- Python installed [https://www.python.org/downloads/)](https://www.python.org/downloads/)
+- Python installed [Python)](https://www.python.org/downloads/)
 - Meraki Python library
 - Meraki Dashboard API key
 - Access to the Meraki Dashboard organization
