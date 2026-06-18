@@ -8,8 +8,8 @@ For this exercise, we will use the Create Wireless SSID with PSK Authentication 
 
 
 
-[!NOTE]
-*This lab is designed to demonstrate workflow automation using the Meraki Dashboard and Cisco Workflows. No Python scripting is required for this lab.*
+> [!NOTE]
+> *This lab is designed to demonstrate workflow automation using the Meraki Dashboard and Cisco Workflows. No Python scripting is required for this lab.*
 
 
 
