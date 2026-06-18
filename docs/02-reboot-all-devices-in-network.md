@@ -4,8 +4,8 @@ In this lab, you will use the Cisco Meraki Dashboard API and a Python script to 
 
 This exercise will walk you through confirming your API key, setting the target network name, running the script, reviewing the devices found, confirming the reboot action, and verifying the results in the Meraki Dashboard.
 
-### [!WARNING]
-"This lab may reboot all Meraki-managed devices inside the selected network, including access points, switches, cameras, security appliances, and other supported devices. Run this only in a demo or approved lab network."
+> ### [!WARNING]
+> *This lab may reboot all Meraki-managed devices inside the selected network, including access points, switches, cameras, security appliances, and other supported devices. Run this only in a demo or approved lab network.*
 
 ### 1. Confirm the Meraki Python Library is Installed
 
@@ -23,8 +23,8 @@ Requirement already satisfied
 
 This means the Meraki library is already available and you can continue with the lab.
 
-### [!NOTE]
-*On some Windows computers, the command pip install meraki may not work because pip is not recognized directly. Using python -m pip install meraki is more reliable because it runs pip through your installed Python version.*
+> [!NOTE]
+> *On some Windows computers, the command pip install meraki may not work because pip is not recognized directly. Using python -m pip install meraki is more reliable because it runs pip through your installed Python version.*
 
 
 ![Windows Power Shell](images/already-satisfied.png)
@@ -51,8 +51,8 @@ If it is blank, set the environment variable again:
 $env:MERAKI_DASHBOARD_API_KEY="PASTE_YOUR_API_KEY_HERE"
 ```
 
-### [!IMPORTANT]
-*Do not upload API keys to GitHub. API keys should be stored securely and used only as environment variables during the lab.*
+> ### [!IMPORTANT]
+> *Do not upload API keys to GitHub. API keys should be stored securely and used only as environment variables during the lab.*
 
 ### 3. Create the Reboot Script
 
