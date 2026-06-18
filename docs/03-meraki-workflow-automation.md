@@ -36,10 +36,10 @@ If you do not have an API key, generate one from the Meraki Dashboard.
 
 #### Steps to Generate an API Key
 - Log in to the Meraki Dashboard.
-- Click the Organization menu.
-- Under Configuration, select API & Webhooks.
-- Select API keys and access.
-- Click Generate API Key.
+- Click the **Organization** menu.
+- Under **Configuration**, select **API & Webhooks**.
+- Select **API keys and access**.
+- Click **Generate API Key**.
 - Copy the API key and save it in a secure location.
 
   ![Windows Power Shell](images/API&Webhooks.png)
