@@ -143,6 +143,9 @@ A valid Target confirms that Cisco Workflows can successfully authenticate and c
 > [!IMPORTANT]
 > *The Target must show as valid before running the workflow. If the Target is not valid, the workflow will not be able to make changes in the Meraki Dashboard.*
 
+> [!TIP]
+> Congratulations! You have successfully connected your first Meraki Target to Cisco Workflows. You are now ready to begin automating Meraki solutions. 
+
 
 
 
