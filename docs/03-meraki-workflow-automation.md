@@ -125,6 +125,11 @@ Meraki API Key: ```Paste your Meraki Dashboard API key```
 
 Click **Save**
 
+
+
+![Windows Power Shell](images/lab03-account-key-add-new.png)
+
+
 ### Validate the Target
 
 After saving, confirm that the Target status is **blue** and shows as **valid**.
