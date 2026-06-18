@@ -241,6 +241,28 @@ Navigate to: **Wireless > Configure > SSIDs**
 
 ![Windows Power Shell](images/lab03-verify1.png)
 
+You may also validate:
+
+SSID name
+
+Authentication method
+
+PSK configuration
+
+SSID enabled or disabled status
+
+
+### Optional Verification: Check the Network Event Log
+
+You can also review the network event log to check for configuration activity.
+
+Navigate to: **Network-wide > Monitor > Event log**
+
+Use the filters to narrow the results by time, device, or event type.
+
+
+
+
 
 
 
