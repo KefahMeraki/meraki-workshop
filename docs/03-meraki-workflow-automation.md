@@ -129,6 +129,8 @@ Click **Save**
 
 ![Windows Power Shell](images/lab03-account-key-add-new.png)
 
+![Windows Power Shell](images/lab03-account-key-type.png)
+
 
 ### Validate the Target
 
