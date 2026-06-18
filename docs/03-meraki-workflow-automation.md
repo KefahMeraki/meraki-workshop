@@ -138,13 +138,6 @@ After saving, confirm that the Target status is **blue** and shows as **valid**.
 
 
 
-## delete all below - this is only template to use for lab 03
-
-```powershell
-python -m pip install meraki
-```
-
-![Windows Power Shell](images/already-satisfied.png)
 
 
 
