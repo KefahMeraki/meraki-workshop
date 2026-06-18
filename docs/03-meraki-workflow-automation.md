@@ -138,6 +138,11 @@ After saving, confirm that the Target status is **blue** and shows as **valid**.
 
 ![Windows Power Shell](images/lab03-verify-target-blue.png)
 
+A valid Target confirms that Cisco Workflows can successfully authenticate and communicate with the Meraki Dashboard API.
+
+> [!IMPORTANT]
+> *The Target must show as valid before running the workflow. If the Target is not valid, the workflow will not be able to make changes in the Meraki Dashboard.*
+
 
 
 
