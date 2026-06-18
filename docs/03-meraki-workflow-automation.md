@@ -236,9 +236,7 @@ The workflow will use Meraki Dashboard automation to create the wireless SSID ba
 
 After the workflow completes, return to the Meraki Dashboard and verify that the SSID was created.
 
-Navigate to:
-
-**Wireless > Configure > SSIDs**
+Navigate to: **Wireless > Configure > SSIDs**
 
 
 ![Windows Power Shell](images/lab03-verify1.png)
