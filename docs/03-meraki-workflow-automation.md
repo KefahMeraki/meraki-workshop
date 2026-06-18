@@ -60,6 +60,8 @@ Open a browser and log in to the Meraki Dashboard:
 
 [https://dashboard.meraki.com](https://dashboard.meraki.com)
 
+Open a browser and log in to the [Meraki Dashboard](https://dashboard.meraki.com).
+
 
 After logging in, select the correct organization and network for your lab environment.
 
