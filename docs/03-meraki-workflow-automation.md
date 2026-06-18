@@ -107,9 +107,11 @@ DEMO- Meraki Dashboard Target
 
 ### Create a new account key using the following information:
 
-Display Name: **DEMO-Meraki API**
-Account Key Type: **Meraki Credentials**
-Meraki API Key: *Paste your Meraki Dashboard API key*
+Display Name: ```DEMO-Meraki API```
+
+Account Key Type: ```Meraki Credentials```
+
+Meraki API Key: ```Paste your Meraki Dashboard API key```
 
 Click **Save**
 
