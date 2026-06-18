@@ -55,7 +55,7 @@ notepad reboot_single_device.py
 ![Windows Power Shell](images/notepad-command-reboot-single-device.png)
 
  
-Note: For this Lab, you will need to prepare the generated key that was generated as well as the Serial Number – have them ready on a text file.
+> Note: For this Lab, you will need to prepare the generated key that was generated as well as the Serial Number – have them ready on a text file.
 
 ![Windows Power Shell](images/serial-number-location.png)
  
